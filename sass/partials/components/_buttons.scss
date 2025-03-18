@@ -1,0 +1,31 @@
+.btn{
+    width: 30vh;
+    height: auto;
+    border: none;
+    border-radius: 26vh;
+    background: map-get($colors, dark);
+    color: map-get($colors , white );
+    font-size: map-get($font-size, 'xs');
+    padding: 1.5vh;
+    text-decoration: none;
+}
+
+.btn a{
+    color: map-get($colors, white);
+    border: 0;
+    padding: 1vh 10vh;
+    text-decoration: none;
+}
+
+.btn:hover{
+    transform: scale(1.02); 
+    background-color: map-get($colors , primary );
+    color: map-get($colors , white );
+}
+
+@media (min-width: 1024px){
+    
+    .btn{
+        font-size: map-get($font-size, 's');
+    }
+}
