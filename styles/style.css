@@ -242,7 +242,7 @@ footer {
   }
 }
 .hero {
-  background: url("../../assets/img/1.jpg") center/cover no-repeat;
+  background: url("../assets/img/1.jpg") center/cover no-repeat;
   height: 60vh;
   display: flex;
   align-items: center;
@@ -310,7 +310,7 @@ footer {
 
 @media (min-width: 1024px) {
   .hero {
-    background: url("../../assets/img/1.jpg") center/cover no-repeat;
+    background: url("../assets/img/1.jpg") center/cover no-repeat;
     height: 90vh;
     display: flex;
     align-items: center;
