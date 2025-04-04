@@ -37,6 +37,19 @@
     font-size: map-get($font-size , s );
 }
 
+.warning-section{
+    background: map-get($colors , dark ); 
+    padding: 5vh; 
+    text-align: center; 
+    margin-bottom: map-get($margin, m );
+    
+
+    p{
+        font-size: 11px;
+        color: map-get($colors, white );
+    }
+    
+}
 
 .contac {
     color: white;
@@ -128,5 +141,28 @@
         align-items: center;
         z-index: 100;
     }
-   
+
+    .warning-section{
+        background: map-get($colors , dark ); 
+        padding-right: 20%;
+        padding-left: 20%;
+        text-align: center; 
+        margin-bottom: map-get($margin, s );
+        
+        h3{
+            font-size: map-get($font-size, xl );
+        }
+        p{
+            font-size: 20px;
+            color: map-get($colors, white );
+        }
+        
+    }
+}
+
+
+@media (min-width: 600px){
+
+
+    
 }

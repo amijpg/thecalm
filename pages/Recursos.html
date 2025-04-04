@@ -11,34 +11,15 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-      <div class="container-fluid d-flex container-xl">
-          <a class="navbar-brand" href="../index.html">
-              <img src="../assets/svg/thecalm.svg" alt="TheCalm" width="50" >
-            </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav gap-3">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="recursos.html">Recursos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="historias.html">Historias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="blog.html">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="contactos.html">Contactos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <nav class="navbar">
+      <img src="../assets/svg/thecalm.svg" alt="Logo" class="logo" />
+      <ul>
+        <li><a  href="../index.html">Home</a></li>
+        <li><a class="active"href="recursos.html">Recursos</a></li>
+        <li><a  href="historias.html">Historias</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
     </nav>
   </header>
     <main>
@@ -53,36 +34,116 @@
           </div>
         </section>
 
-        <section class="cards container-xl">
-            <div class="card">
-                <img class=" img card-img-top mb-4" src="../assets/img/2.png" alt="tecnica de relajación">
-              <div class="card-body">
-                <h4 class="card-title mb-4">Técnicas prácticas de relajación</h4>
-                <p class="card-text">Métodos comprobados para encontrar calma.</p>
-                <a href="" class="btn">Ver más</a></button>
-              </div>
+        <section class="recursos-expandible">
+          <h2>Tecnicas de relación</h2>
+          <p>Métodos comprobados para encontrar calma.</p>
+          <details>
+            <summary>Ver más</summary>
+            <div class="contenido-extra">
+              <ol>
+                <li><strong>Respiración profunda:</strong>
+                  <ul>
+                    <li>Técnica 4-7-8: Inhala por 4 segundos, sostén por 7 y exhala durante 8.</li>
+                    <li>Ejercicio guiado: "Escucha nuestro audio para practicar en cualquier momento."</li>
+                  </ul>
+                </li>
+                <li><strong>Técnica de visualización:</strong>
+                  <ul>
+                    <li>Imagina un lugar seguro como una playa o un bosque.</li>
+                    <li>Tip: "Usa música relajante para potenciar esta técnica."</li>
+                  </ul>
+                </li>
+                <li><strong>Grounding (enraizamiento):</strong>
+                  <ul>
+                    <li>Método 5-4-3-2-1: ver, tocar, escuchar, oler, saborear.</li>
+                    <li>Ideal para momentos de ansiedad elevada.</li>
+                  </ul>
+                </li>
+              </ol>
             </div>
+          </details>
+        </section>
 
-            <div class="card">
-                <img class=" img card-img-top mb-4" src="../assets/img/2.2.png" alt="">
-              <div class="card-body">
-                <h4 class="card-title mb-4">Aplicaciones recomendadas</h4>
-                <p class="card-text mb-4">Tecnología al servicio de tu bienestar.</p>
-                <a href=""class="btn">Ver más</a>
-              </div>
-            </div>
-            <div class="card">
-                <img class="img card-img-top mb-4" src="../assets/img/2.3.png" alt="">
+        <section class="recursos-expandible">
 
-              <div class="card-body">
-                <h4 class="card-title mb-4">Guías descargables y extras</h4>
-                <p class="card-text">Material exclusivo para llevar contigo.</p>
-                <a href="" class="btn">Ver más</a></button>
-              </div>
+          <h3>Aplicaciones recomendadas</h3>
+              <p>Métodos comprobados para encontrar calma.</p>
+          <details>
+            <summary>Ver más</summary>
+            <div class="contenido-extra">
+              <ol>
+                <li><strong>Calm App:</strong>
+                  <ul>
+                    <li>Funciones: Meditación guiada, música relajante, narraciones para dormir.</li>
+                    <li>Disponible en: iOS y Android.</li>
+                    <li>Enlace: <a href="https://www.calm.com/" target="_blank">Descargar Calm</a></li>
+                  </ul>
+                </li>
+                <li><strong>Insight Timer:</strong>
+                  <ul>
+                    <li>Funciones: Miles de meditaciones gratuitas, desde principiantes hasta avanzados.</li>
+                    <li>Enlace: <a href="https://insighttimer.com/" target="_blank">Descargar Insight Timer</a></li>
+                  </ul>
+                </li>
+                <li><strong>BetterSleep:</strong>
+                  <ul>
+                    <li>Funciones: Mejora la calidad del sueño con sonidos relajantes y meditaciones nocturnas.</li>
+                    <li>Enlace: <a href="https://www.bettersleep.com/" target="_blank">Descargar BetterSleep</a></li>
+                  </ul>
+                </li>
+              </ol>
+              <p><strong>Nota:</strong> Todas las aplicaciones tienen opciones gratuitas.</p>
             </div>
+          </details>
+        </section>
+
+        <section class="recursos-expandible">
+
+          <h3>Guías descargables y extras</h3>
+              <p>Material exclusivo para llevar contigo</p>
+          <details>
+            <summary>Ver más</summary>
+            <div class="contenido-extra">
+
+              <ol>
+                <li><strong>Guía gratuita: "10 pasos para manejar la ansiedad en el día a día."</strong>
+                  <ul>
+                    <li>Contenido: Estrategias prácticas como crear una rutina, técnicas de relajación y manejo del tiempo.</li>
+                    <li>Formato: PDF.</li>
+                  </ul>
+                </li>
+        
+                <li><strong>Libros:</strong>
+                  <ul>
+                    <li><em>El poder del ahora</em> de Eckhart Tolle: Aprende a vivir en el presente.</li>
+                    <li><em>Ansiedad: Cómo enfrentar el monstruo</em> de Pilar Sordo: Herramientas para entender y manejar la ansiedad.</li>
+                  </ul>
+                </li>
+        
+                <li><strong>Series que te ayudan:</strong>
+                  <ul>
+                    <li><a href="https://www.netflix.com/title/81267156" target="_blank">"The Mind, Explained"</a> (Netflix): Episodios breves que explican cómo funciona el cerebro, incluyendo uno sobre la ansiedad. Educativo, visualmente atractivo y fácil de entender.</li>
+                    <li><a href="https://www.netflix.com/title/81280925" target="_blank">"Headspace: Guía para la meditación"</a> (Netflix): Serie animada que muestra cómo la meditación puede ayudarte a manejar el estrés, la ansiedad y mejorar tu bienestar general.</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </details>
+        </section>
+
+
+        <section class="warning-section">
+          <div class="warning-text">
+            <h5 style="color: white;"><strong>Importante:</strong></h5>
+            <p>
+              Los recursos que encontrarás aquí no reemplazan la ayuda profesional. Ninguna técnica, aplicación o guía puede curar la ansiedad por sí sola. Sin embargo, estas herramientas están diseñadas para ser un apoyo en tu proceso de sanación y para ayudarte a manejar los síntomas. Para un tratamiento adecuado, te recomendamos buscar la orientación de un profesional de la salud mental.
+            </p>
+          </div>
         </section>
      
     </main>
+
+    
 
     <footer>
 
@@ -90,13 +151,13 @@
             <div class="row">
               <div class="footer-links col-sm-8">
 
-                <a href="/pages/Blog.html">Blog</a>
+                <a href="./blog.html">Blog</a>
 
                 <a href="">Cuenta tu experiencia</a>
 
                 <a href="">Noticias</a>
 
-                <a href="/pages/Contactos.html">Contactos</a>
+                <a href="./contactos.html">Contactos</a>
 
               </div>
               <div class="iconos-redes col-sm-4 ">

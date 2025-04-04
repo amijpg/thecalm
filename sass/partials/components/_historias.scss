@@ -14,7 +14,7 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 500px) {
     .historias-mobile {
         display: none;
     }
@@ -52,4 +52,9 @@
         margin-top: 6%;
     }
     
+}
+
+@media (min-width: 700px){
+  
+   
 }
